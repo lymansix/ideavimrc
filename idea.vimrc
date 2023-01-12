@@ -29,6 +29,7 @@ set visualbell
 nmap <Leader>/ <Action>(Find)
 " leader a-
 nmap <leader>at <Action>(ActivateTODOToolWindow)
+nmap <Leader>am <Action>(ActivateMavenToolWindow)
 
 " leader b-
 nmap <Leader>ba <Action>(BuildArtifact)
@@ -112,7 +113,6 @@ map <leader>J Ji <ESC>
 nmap <Leader>jj <Action>(javadoc.generator)
 nmap <Leader>ja <Action>(javadoc.generatorAll)
 
-nmap <Leader>mv <Action>(ActivateMavenProjectsToolWindow)
 
 " leader n-
 nmap <Leader>nc <Action>(NewClass)
@@ -210,7 +210,7 @@ set exchange
 set highlightedyank
 
 " ideavimExtend autoChange input method
-" set keep-english-in-normal-and-restore-in-insert
+set keep-english-in-normal-and-restore-in-insert
 " set keep-english-in-normal
 
 " https://github.com/JetBrains/ideavim/wiki/NERDTree-support
